@@ -6,7 +6,7 @@ nav_order: 2
 # Week 1 — Stock Market Fundamentals
 
 **Time:** 2–3 hours · **Assumes:** zero prior knowledge
-**Worksheet:** [`exercises/01-nifty50-exploration.md`](../exercises/01-nifty50-exploration.md)
+**Worksheet:** [Nifty 50 exploration](../exercises/01-nifty50-exploration.md)
 
 ---
 
@@ -198,7 +198,7 @@ SEBI's classification by market cap rank (used for mutual fund categorisation):
 
 ## 4. Practical exercise — "Meet the Nifty 50"
 
-Use the worksheet: [`exercises/01-nifty50-exploration.md`](../exercises/01-nifty50-exploration.md)
+Use the worksheet: [Nifty 50 exploration](../exercises/01-nifty50-exploration.md)
 
 1. Open the Nifty 50 constituent list on niftyindices.com. Note down:
    - How many sectors are represented?

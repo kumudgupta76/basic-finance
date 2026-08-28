@@ -6,7 +6,7 @@ nav_order: 3
 # Week 2 — Investing Fundamentals
 
 **Time:** 2–3 hours
-**Worksheet:** [`exercises/02-compounding-and-sip.md`](../exercises/02-compounding-and-sip.md) · [`exercises/mock-portfolio.md`](../exercises/mock-portfolio.md)
+**Worksheet:** [Compounding & SIP](../exercises/02-compounding-and-sip.md) · [Mock portfolio tracker](../exercises/mock-portfolio.md)
 
 ---
 
@@ -220,7 +220,7 @@ dividends are **taxable in the investor's hands at their slab rate**, with TDS a
 ## 4. Practical exercises
 
 ### Exercise A — Compounding maths by hand (20 min)
-Worksheet: [`exercises/02-compounding-and-sip.md`](../exercises/02-compounding-and-sip.md)
+Worksheet: [Compounding & SIP](../exercises/02-compounding-and-sip.md)
 
 1. Compute the future value of ₹1,00,000 at 12% for 10, 20, and 30 years. Note the *shape*.
 2. Compute the future value of a ₹5,000/month SIP at 12% for 10, 20, and 30 years.
@@ -240,7 +240,7 @@ Pick **one Nifty 50 index fund** and **one active large-cap fund**. Record:
 Then answer: *over 20 years, roughly how much does the TER difference cost on ₹10 lakh?*
 
 ### Exercise C — Build your mock portfolio (25 min)
-Worksheet: [`exercises/mock-portfolio.md`](../exercises/mock-portfolio.md)
+Worksheet: [Mock portfolio tracker](../exercises/mock-portfolio.md)
 
 Allocate an imaginary **₹5,00,000**:
 - Decide an asset allocation first (equity / debt / gold / cash) and write **why**.

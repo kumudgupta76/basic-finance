@@ -6,7 +6,7 @@ nav_order: 6
 # Week 5 — Risk Management & Trading Psychology
 
 **Time:** 2–3 hours
-**Worksheet:** [`exercises/05-position-sizing-and-journal.md`](../exercises/05-position-sizing-and-journal.md)
+**Worksheet:** [Position sizing & trade journal](../exercises/05-position-sizing-and-journal.md)
 
 ---
 
@@ -245,7 +245,7 @@ drawdown, stop for the week.
 
 ## 5. Practical exercises
 
-Worksheet: [`exercises/05-position-sizing-and-journal.md`](../exercises/05-position-sizing-and-journal.md)
+Worksheet: [Position sizing & trade journal](../exercises/05-position-sizing-and-journal.md)
 
 ### A. Build a position-size calculator (25 min)
 In a spreadsheet, create inputs for: Capital, Risk %, Entry, Stop. Compute:

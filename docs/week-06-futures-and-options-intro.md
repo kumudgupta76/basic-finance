@@ -6,7 +6,7 @@ nav_order: 7
 # Week 6 — Futures & Options: Introduction Only
 
 **Time:** 2–3 hours
-**Worksheet:** [`exercises/06-options-chain-observation.md`](../exercises/06-options-chain-observation.md)
+**Worksheet:** [Options chain observation](../exercises/06-options-chain-observation.md)
 
 ---
 
@@ -248,7 +248,7 @@ content. This niche is the most heavily monetised and least honest corner of Ind
 
 ## 6. Practical exercise — observation only
 
-Worksheet: [`exercises/06-options-chain-observation.md`](../exercises/06-options-chain-observation.md)
+Worksheet: [Options chain observation](../exercises/06-options-chain-observation.md)
 
 ### A. Read the option chain (30 min)
 Open the NSE Nifty option chain. Record the current Nifty spot, then note:

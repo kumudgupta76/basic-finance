@@ -22,7 +22,7 @@ No specific stock is recommended anywhere in this repo.
 2. Study the linked resources (all free unless marked otherwise).
 3. Do the **practical exercise** — this is the part that actually makes it stick.
 4. Take the **checkpoint quiz** at the end of the week.
-5. Log everything in [`exercises/`](exercises/) worksheets.
+5. Log everything in the [worksheets](exercises/index.md).
 
 Each new term is introduced in a fixed format:
 

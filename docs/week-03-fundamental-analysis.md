@@ -6,7 +6,7 @@ nav_order: 4
 # Week 3 — Fundamental Analysis
 
 **Time:** ~3 hours (the heaviest week — split it into two sittings if needed)
-**Worksheet:** [`exercises/03-company-comparison.md`](../exercises/03-company-comparison.md)
+**Worksheet:** [Company comparison & ratios](../exercises/03-company-comparison.md)
 
 ---
 
@@ -253,7 +253,7 @@ Annual reports run 200–400 pages. As a beginner, read these six things, in thi
 
 ## 6. Practical exercise — compare three companies
 
-Worksheet: [`exercises/03-company-comparison.md`](../exercises/03-company-comparison.md)
+Worksheet: [Company comparison & ratios](../exercises/03-company-comparison.md)
 
 Pick **two companies from the same sector** (e.g. two IT services firms, or two FMCG firms) and
 **one from a different sector**. Use Screener.in.

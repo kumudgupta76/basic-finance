@@ -6,7 +6,7 @@ nav_order: 5
 # Week 4 — Trading & Technical Analysis
 
 **Time:** ~3 hours
-**Worksheet:** [`exercises/04-chart-reading-log.md`](../exercises/04-chart-reading-log.md)
+**Worksheet:** [Chart reading log](../exercises/04-chart-reading-log.md)
 
 ---
 
@@ -288,7 +288,7 @@ This is why professionals obsess over R:R and amateurs obsess over being right.
 
 ## 8. Practical exercise — chart reading log
 
-Worksheet: [`exercises/04-chart-reading-log.md`](../exercises/04-chart-reading-log.md)
+Worksheet: [Chart reading log](../exercises/04-chart-reading-log.md)
 
 ### A. Compute an SMA by hand (10 min)
 Download 10 days of closing prices for any Nifty 50 stock from NSE. Compute the 5-day SMA for
