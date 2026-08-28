@@ -16,7 +16,6 @@ theme:
   icon:
     logo: material/chart-line
     repo: fontawesome/brands/github
-  favicon: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/favicon.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -56,6 +55,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/checklist-persist.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -88,6 +90,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
   - pymdownx.tilde
 
 plugins:

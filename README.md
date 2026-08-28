@@ -9,14 +9,6 @@ Designed for **2–3 hours every weekend** over **6 weeks**.
 
 ---
 
-## ⚠️ Disclaimer
-
-This repository is **educational material only**. It is **not** investment advice, not a
-recommendation to buy or sell any security, and makes **no promise of returns**.
-No specific stock is recommended anywhere in this repo.
-**Do not invest real money during these 6 weeks.** See [the disclaimer](docs/disclaimer.md).
-
----
 
 ## How to use this repo
 
@@ -167,6 +159,10 @@ shipping silently.
   work in the GitHub repo view *and* on the published site.
 - Custom styling lives in [`docs/stylesheets/extra.css`](docs/stylesheets/extra.css) — mainly a
   wider content column and readable tables, since these pages are table-heavy.
+- `- [ ]` checklists render as **clickable** checkboxes, and
+  [`docs/javascripts/checklist-persist.js`](docs/javascripts/checklist-persist.js) saves your ticks
+  to `localStorage` so progress survives a reload. Progress is per-browser and per-page; it is not
+  synced anywhere.
 - MkDocs is pinned to `<2` in `requirements.txt`: MkDocs 2.0 removes the plugin and theming
   systems that Material depends on.
 
