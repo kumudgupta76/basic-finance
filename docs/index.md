@@ -6,12 +6,6 @@ stock market. Designed for **2–3 hours every weekend** over **6 weeks**.
 !!! quote "The goal"
     Build a strong foundation — **not** to make quick money.
 
-!!! danger "Educational content only"
-    This site is **not** investment advice, not a recommendation to buy or sell any security, and
-    makes **no promise of returns**. No specific stock is recommended anywhere.
-    **Do not invest real money during these 6 weeks.**
-    Read the full [disclaimer](disclaimer.md).
-
 ## How to use this site
 
 <div class="grid cards" markdown>
