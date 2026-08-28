@@ -1,12 +1,7 @@
----
-title: Week 3 · Fundamental analysis
-nav_order: 4
----
-
 # Week 3 — Fundamental Analysis
 
 **Time:** ~3 hours (the heaviest week — split it into two sittings if needed)
-**Worksheet:** [Company comparison & ratios](../exercises/03-company-comparison.md)
+**Worksheet:** [Company comparison & ratios](exercises/03-company-comparison.md)
 
 ---
 
@@ -253,7 +248,7 @@ Annual reports run 200–400 pages. As a beginner, read these six things, in thi
 
 ## 6. Practical exercise — compare three companies
 
-Worksheet: [Company comparison & ratios](../exercises/03-company-comparison.md)
+Worksheet: [Company comparison & ratios](exercises/03-company-comparison.md)
 
 Pick **two companies from the same sector** (e.g. two IT services firms, or two FMCG firms) and
 **one from a different sector**. Use Screener.in.
@@ -313,7 +308,7 @@ For any one company, check and note:
 7. Company Y's EPS fell 10% while net profit rose 5%. What most likely happened?
 8. What does a "qualified opinion" from the auditor signal?
 
-<details>
+<details class="success" markdown="1">
 <summary>Answers</summary>
 
 1. Profits aren't converting to cash. Possible aggressive revenue recognition, uncollected receivables, or inventory build-up. This is the classic accounting-fraud footprint.

@@ -1,9 +1,3 @@
----
-title: 03 · Company comparison
-parent: Worksheets
-nav_order: 3
----
-
 # Worksheet 3 — Company Comparison & Ratios (Week 3)
 
 **Date completed:** ______________

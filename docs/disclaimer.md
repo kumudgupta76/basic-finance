@@ -1,8 +1,3 @@
----
-title: Disclaimer
-nav_order: 16
----
-
 # Disclaimer
 
 ## Educational content only

@@ -1,8 +1,3 @@
----
-title: Concepts checklist
-nav_order: 8
----
-
 # Concepts You Should Know After 6 Weeks
 
 Tick each item only if you can **explain it out loud to someone else** in plain language, with an

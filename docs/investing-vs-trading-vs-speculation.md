@@ -1,8 +1,3 @@
----
-title: Investing vs trading vs speculation
-nav_order: 12
----
-
 # Investing vs Trading vs Speculation vs Gambling
 
 This is the single most important distinction in this entire roadmap. Most retail losses come from
@@ -165,4 +160,4 @@ If you can't say one of the first three about a position, close it.
 
 ---
 
-← [Back to home](../index.md)
+← [Back to home](index.md)

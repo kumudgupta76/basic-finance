@@ -1,9 +1,3 @@
----
-title: 04 · Chart reading log
-parent: Worksheets
-nav_order: 4
----
-
 # Worksheet 4 — Chart Reading Log (Week 4)
 
 **Date completed:** ______________

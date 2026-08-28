@@ -1,12 +1,7 @@
----
-title: Week 5 · Risk & psychology
-nav_order: 6
----
-
 # Week 5 — Risk Management & Trading Psychology
 
 **Time:** 2–3 hours
-**Worksheet:** [Position sizing & trade journal](../exercises/05-position-sizing-and-journal.md)
+**Worksheet:** [Position sizing & trade journal](exercises/05-position-sizing-and-journal.md)
 
 ---
 
@@ -245,7 +240,7 @@ drawdown, stop for the week.
 
 ## 5. Practical exercises
 
-Worksheet: [Position sizing & trade journal](../exercises/05-position-sizing-and-journal.md)
+Worksheet: [Position sizing & trade journal](exercises/05-position-sizing-and-journal.md)
 
 ### A. Build a position-size calculator (25 min)
 In a spreadsheet, create inputs for: Capital, Risk %, Entry, Stop. Compute:
@@ -302,7 +297,7 @@ Your honest answers here predict your results more accurately than any indicator
 7. Why does a more volatile stock get a *smaller* position for the same risk budget?
 8. You bought at ₹600, it's now ₹420, and you're waiting for ₹600 to sell. What bias is this?
 
-<details>
+<details class="success" markdown="1">
 <summary>Answers</summary>
 
 1. Risk = ₹4,000. Risk/share = ₹12. Size = 4,000 ÷ 12 = **333 shares** (round down to 333).

@@ -1,8 +1,3 @@
----
-title: Common mistakes
-nav_order: 13
----
-
 # Common Beginner Mistakes
 
 Ordered roughly by how much damage they cause.

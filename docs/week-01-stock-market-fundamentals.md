@@ -1,12 +1,7 @@
----
-title: Week 1 · Market fundamentals
-nav_order: 2
----
-
 # Week 1 — Stock Market Fundamentals
 
 **Time:** 2–3 hours · **Assumes:** zero prior knowledge
-**Worksheet:** [Nifty 50 exploration](../exercises/01-nifty50-exploration.md)
+**Worksheet:** [Nifty 50 exploration](exercises/01-nifty50-exploration.md)
 
 ---
 
@@ -198,7 +193,7 @@ SEBI's classification by market cap rank (used for mutual fund categorisation):
 
 ## 4. Practical exercise — "Meet the Nifty 50"
 
-Use the worksheet: [Nifty 50 exploration](../exercises/01-nifty50-exploration.md)
+Use the worksheet: [Nifty 50 exploration](exercises/01-nifty50-exploration.md)
 
 1. Open the Nifty 50 constituent list on niftyindices.com. Note down:
    - How many sectors are represented?
@@ -232,7 +227,7 @@ Answer without looking. Answers at the bottom.
 7. What does SEBI do that an exchange does not?
 8. You want to buy a small-cap but only if you get it at ₹95 or lower. Which order type?
 
-<details>
+<details class="success" markdown="1">
 <summary>Answers</summary>
 
 1. **Zero.** Secondary market trades transfer money between investors. Only the primary market (IPO/FPO/rights) funds the company.

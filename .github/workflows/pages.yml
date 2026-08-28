@@ -22,31 +22,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          ruby-version: "3.3"
-          bundler-cache: true
-          cache-version: 1
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Configure Pages
-        id: pages
         uses: actions/configure-pages@v5
 
       - name: Build site
-        # baseurl/url from configure-pages override _config.yml, so the site works
-        # at whatever URL this repository is actually published on.
-        run: |
-          bundle exec jekyll build \
-            --baseurl "${{ steps.pages.outputs.base_path }}" \
-            --destination ./_site
-        env:
-          JEKYLL_ENV: production
+        run: mkdocs build --strict --site-dir ./site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ./site
 
   deploy:
     needs: build

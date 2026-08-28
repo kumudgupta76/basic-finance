@@ -1,9 +1,3 @@
----
-title: 06 · Options chain observation
-parent: Worksheets
-nav_order: 6
----
-
 # Worksheet 6 — Options Chain Observation (Week 6)
 
 **Date completed:** ______________

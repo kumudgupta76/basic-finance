@@ -1,0 +1,125 @@
+site_name: Indian Stock Market — 6-Week Beginner Roadmap
+site_description: >-
+  A structured, education-only 6-week roadmap to learn the Indian stock market,
+  investing and trading from scratch.
+site_url: https://kumudgupta76.github.io/basic-finance/
+repo_url: https://github.com/kumudgupta76/basic-finance
+repo_name: kumudgupta76/basic-finance
+edit_uri: edit/master/docs/
+copyright: >-
+  Educational content only — not investment advice, not a recommendation to buy or sell any
+  security, and no promise of returns.
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/chart-line
+    repo: fontawesome/brands/github
+  favicon: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kumudgupta76/basic-finance
+  generator: false
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - 6-Week Roadmap:
+      - Week 1 · Market fundamentals: week-01-stock-market-fundamentals.md
+      - Week 2 · Investing fundamentals: week-02-investing-fundamentals.md
+      - Week 3 · Fundamental analysis: week-03-fundamental-analysis.md
+      - Week 4 · Technical analysis: week-04-trading-technical-analysis.md
+      - Week 5 · Risk & psychology: week-05-risk-management-psychology.md
+      - Week 6 · Futures & options intro: week-06-futures-and-options-intro.md
+  - Worksheets:
+      - Overview: exercises/index.md
+      - 01 · Nifty 50 exploration: exercises/01-nifty50-exploration.md
+      - 02 · Compounding & SIP: exercises/02-compounding-and-sip.md
+      - 03 · Company comparison: exercises/03-company-comparison.md
+      - 04 · Chart reading log: exercises/04-chart-reading-log.md
+      - 05 · Position sizing & journal: exercises/05-position-sizing-and-journal.md
+      - 06 · Options chain observation: exercises/06-options-chain-observation.md
+      - Mock portfolio tracker: exercises/mock-portfolio.md
+  - Reference:
+      - Concepts checklist: concepts-checklist.md
+      - Glossary: glossary.md
+      - Final assessment: final-assessment.md
+      - Next 3 months: next-3-months-roadmap.md
+      - Investing vs trading vs speculation: investing-vs-trading-vs-speculation.md
+      - Common mistakes: common-mistakes.md
+      - Resource library: resources.md
+      - Disclaimer: disclaimer.md
+
+watch:
+  - docs

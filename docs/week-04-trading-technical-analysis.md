@@ -1,12 +1,7 @@
----
-title: Week 4 · Technical analysis
-nav_order: 5
----
-
 # Week 4 — Trading & Technical Analysis
 
 **Time:** ~3 hours
-**Worksheet:** [Chart reading log](../exercises/04-chart-reading-log.md)
+**Worksheet:** [Chart reading log](exercises/04-chart-reading-log.md)
 
 ---
 
@@ -288,7 +283,7 @@ This is why professionals obsess over R:R and amateurs obsess over being right.
 
 ## 8. Practical exercise — chart reading log
 
-Worksheet: [Chart reading log](../exercises/04-chart-reading-log.md)
+Worksheet: [Chart reading log](exercises/04-chart-reading-log.md)
 
 ### A. Compute an SMA by hand (10 min)
 Download 10 days of closing prices for any Nifty 50 stock from NSE. Compute the 5-day SMA for
@@ -343,7 +338,7 @@ which is the main reason charts look obvious in the past and impossible in real 
 7. Your trade is at ₹482 and your stop was ₹480. You're convinced it will bounce. What do you do?
 8. Name two costs that erode intraday trading returns beyond brokerage.
 
-<details>
+<details class="success" markdown="1">
 <summary>Answers</summary>
 
 1. A **hammer**-like candle — sellers drove price down but buyers absorbed and pushed it back. Possible bottoming attempt, but it needs confirmation from the next candle and from volume/level context.

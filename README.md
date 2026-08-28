@@ -5,6 +5,8 @@ Designed for **2–3 hours every weekend** over **6 weeks**.
 
 > **Goal:** build a strong foundation — not to make quick money.
 
+📖 **Read it online: <https://kumudgupta76.github.io/basic-finance/>**
+
 ---
 
 ## ⚠️ Disclaimer
@@ -12,7 +14,7 @@ Designed for **2–3 hours every weekend** over **6 weeks**.
 This repository is **educational material only**. It is **not** investment advice, not a
 recommendation to buy or sell any security, and makes **no promise of returns**.
 No specific stock is recommended anywhere in this repo.
-**Do not invest real money during these 6 weeks.** See [DISCLAIMER.md](DISCLAIMER.md).
+**Do not invest real money during these 6 weeks.** See [the disclaimer](docs/disclaimer.md).
 
 ---
 
@@ -22,7 +24,7 @@ No specific stock is recommended anywhere in this repo.
 2. Study the linked resources (all free unless marked otherwise).
 3. Do the **practical exercise** — this is the part that actually makes it stick.
 4. Take the **checkpoint quiz** at the end of the week.
-5. Log everything in the [worksheets](exercises/index.md).
+5. Log everything in the [worksheets](docs/exercises/index.md).
 
 Each new term is introduced in a fixed format:
 
@@ -57,13 +59,13 @@ Each new term is introduced in a fixed format:
 
 | Worksheet | Used in |
 |---|---|
-| [Nifty 50 exploration](exercises/01-nifty50-exploration.md) | Week 1 |
-| [Compounding & SIP calculations](exercises/02-compounding-and-sip.md) | Week 2 |
-| [Company comparison & ratios](exercises/03-company-comparison.md) | Week 3 |
-| [Chart reading log](exercises/04-chart-reading-log.md) | Week 4 |
-| [Position sizing & trade journal](exercises/05-position-sizing-and-journal.md) | Week 5 |
-| [Options chain observation](exercises/06-options-chain-observation.md) | Week 6 |
-| [Mock portfolio tracker](exercises/mock-portfolio.md) | Weeks 2–6 |
+| [Nifty 50 exploration](docs/exercises/01-nifty50-exploration.md) | Week 1 |
+| [Compounding & SIP calculations](docs/exercises/02-compounding-and-sip.md) | Week 2 |
+| [Company comparison & ratios](docs/exercises/03-company-comparison.md) | Week 3 |
+| [Chart reading log](docs/exercises/04-chart-reading-log.md) | Week 4 |
+| [Position sizing & trade journal](docs/exercises/05-position-sizing-and-journal.md) | Week 5 |
+| [Options chain observation](docs/exercises/06-options-chain-observation.md) | Week 6 |
+| [Mock portfolio tracker](docs/exercises/mock-portfolio.md) | Weeks 2–6 |
 
 ---
 
@@ -82,45 +84,47 @@ Each new term is introduced in a fixed format:
 ```
 .
 ├── README.md                    # this file (GitHub repo view)
-├── index.md                     # site home page (GitHub Pages)
-├── DISCLAIMER.md
+├── mkdocs.yml                   # site config, theme and navigation
+├── requirements.txt             # mkdocs + mkdocs-material
 ├── initial-plan.md              # the original brief
-├── _config.yml                  # Jekyll / just-the-docs config
-├── Gemfile
 ├── .github/workflows/pages.yml  # GitHub Pages deployment
-├── docs/
-│   ├── week-01-stock-market-fundamentals.md
-│   ├── week-02-investing-fundamentals.md
-│   ├── week-03-fundamental-analysis.md
-│   ├── week-04-trading-technical-analysis.md
-│   ├── week-05-risk-management-psychology.md
-│   ├── week-06-futures-and-options-intro.md
-│   ├── concepts-checklist.md
-│   ├── glossary.md
-│   ├── final-assessment.md
-│   ├── next-3-months-roadmap.md
-│   ├── investing-vs-trading-vs-speculation.md
-│   ├── common-mistakes.md
-│   └── resources.md
-└── exercises/
-    ├── index.md
-    ├── 01-nifty50-exploration.md
-    ├── 02-compounding-and-sip.md
-    ├── 03-company-comparison.md
-    ├── 04-chart-reading-log.md
-    ├── 05-position-sizing-and-journal.md
-    ├── 06-options-chain-observation.md
-    └── mock-portfolio.md
+└── docs/                        # everything published to the site
+    ├── index.md                 # site home page
+    ├── disclaimer.md
+    ├── week-01-stock-market-fundamentals.md
+    ├── week-02-investing-fundamentals.md
+    ├── week-03-fundamental-analysis.md
+    ├── week-04-trading-technical-analysis.md
+    ├── week-05-risk-management-psychology.md
+    ├── week-06-futures-and-options-intro.md
+    ├── concepts-checklist.md
+    ├── glossary.md
+    ├── final-assessment.md
+    ├── next-3-months-roadmap.md
+    ├── investing-vs-trading-vs-speculation.md
+    ├── common-mistakes.md
+    ├── resources.md
+    ├── stylesheets/extra.css
+    └── exercises/
+        ├── index.md
+        ├── 01-nifty50-exploration.md
+        ├── 02-compounding-and-sip.md
+        ├── 03-company-comparison.md
+        ├── 04-chart-reading-log.md
+        ├── 05-position-sizing-and-journal.md
+        ├── 06-options-chain-observation.md
+        └── mock-portfolio.md
 ```
 
 ---
 
 ## Publishing with GitHub Pages
 
-The site is built with **Jekyll** + the **just-the-docs** theme (sidebar navigation and
-client-side search) and deployed by a GitHub Actions workflow.
+The site is built with **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)** and
+deployed by a GitHub Actions workflow. You get a dark/light toggle, top-level navigation tabs,
+full-text search, card grids, and styled admonitions out of the box.
 
-**This repo is already configured for:** `https://kumudgupta76.github.io/basic-finance/`
+**Live at:** <https://kumudgupta76.github.io/basic-finance/>
 
 ### One-time setup
 
@@ -128,52 +132,43 @@ client-side search) and deployed by a GitHub Actions workflow.
    `Settings → Pages → Build and deployment → Source: **GitHub Actions**`
    Do *not* pick "Deploy from a branch" — the workflow handles it.
 
-2. **Commit and push** to `master` (or `main` — the workflow triggers on both).
-   The **Deploy site to GitHub Pages** workflow runs, and the live URL appears under
-   `Settings → Pages` and in the workflow's `deploy` job summary.
+2. **Push to `master`** (or `main` — the workflow triggers on both).
+   The **Deploy site to GitHub Pages** workflow builds with `mkdocs build --strict` and deploys.
 
-That's it. Nothing else needs changing unless you rename or move the repository.
+### If you move or rename the repo
 
-### If you move the repo
+Update `site_url`, `repo_url` and `repo_name` in [`mkdocs.yml`](mkdocs.yml). `site_url` determines
+the base path, so it must match the published URL exactly.
 
-Update `url:` and `baseurl:` in [`_config.yml`](_config.yml):
-
-| Repo type | URL | `url:` | `baseurl:` |
-|---|---|---|---|
-| Project site | `https://<user>.github.io/<repo>/` | `https://<user>.github.io` | `/<repo>` |
-| User/org site (repo named `<user>.github.io`) | `https://<user>.github.io/` | `https://<user>.github.io` | `""` |
-
-The workflow passes the correct `--baseurl` at build time regardless, so the deployed site works
-either way; these values mainly affect local previews and absolute SEO/sitemap URLs.
-
-### Local preview (optional)
-
-Ruby is **not currently installed** on this machine, so local preview needs a one-time install
-([RubyInstaller for Windows](https://rubyinstaller.org/), Ruby 3.x with the MSYS2 devkit).
-This is optional — GitHub Actions builds the site regardless.
+### Local preview
 
 ```powershell
-bundle install
-bundle exec jekyll serve --livereload
-# → http://127.0.0.1:4000/basic-finance/
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m mkdocs serve
+# → http://127.0.0.1:8000/basic-finance/
 ```
 
-To preview at the root path instead:
+`mkdocs serve` live-reloads on save. To check exactly what CI will do:
 
 ```powershell
-bundle exec jekyll serve --baseurl "" --livereload
+.\.venv\Scripts\python.exe -m mkdocs build --strict
 ```
+
+`--strict` turns warnings into errors, so broken internal links fail the build rather than
+shipping silently.
 
 ### Notes
 
-- Every published page needs YAML front matter (`title`, `nav_order`). Files without it are
-  copied verbatim and won't render — `README.md` and `initial-plan.md` are deliberately excluded
-  in `_config.yml`.
-- `jekyll-relative-links` rewrites `[text](file.md)` links to their built URLs, so the same
-  links work both in the GitHub repo view and on the published site.
-- Sidebar order is controlled by `nav_order`; worksheets are nested under
-  [`exercises/index.md`](exercises/index.md) via `parent: Worksheets`.
-- The first workflow run takes a few minutes (it builds the gem cache); later runs are faster.
+- **Navigation is defined in `mkdocs.yml`**, not in the pages. Adding a page means adding it to
+  the `nav:` block — otherwise `--strict` will fail the build.
+- Pages need no front matter; the `# H1` becomes the page title.
+- Internal links are written as normal relative `.md` paths and resolved at build time, so they
+  work in the GitHub repo view *and* on the published site.
+- Custom styling lives in [`docs/stylesheets/extra.css`](docs/stylesheets/extra.css) — mainly a
+  wider content column and readable tables, since these pages are table-heavy.
+- MkDocs is pinned to `<2` in `requirements.txt`: MkDocs 2.0 removes the plugin and theming
+  systems that Material depends on.
 
 ---
 

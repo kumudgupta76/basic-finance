@@ -1,9 +1,3 @@
----
-title: 01 · Nifty 50 exploration
-parent: Worksheets
-nav_order: 1
----
-
 # Worksheet 1 — Nifty 50 Exploration (Week 1)
 
 **Date completed:** ______________

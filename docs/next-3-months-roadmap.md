@@ -1,8 +1,3 @@
----
-title: Next 3 months
-nav_order: 11
----
-
 # The Next 3 Months (Months 2–4)
 
 The 6 weeks gave you vocabulary and a framework. The next three months are about **depth, repetition,

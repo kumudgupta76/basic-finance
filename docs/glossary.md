@@ -1,8 +1,3 @@
----
-title: Glossary
-nav_order: 9
----
-
 # Beginner's Glossary — Indian Stock Market
 
 Format: **Term** — plain explanation. *Example where useful.*

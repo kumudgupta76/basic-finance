@@ -1,0 +1,62 @@
+/* Slightly wider content column — these pages have a lot of tables. */
+.md-grid {
+  max-width: 68rem;
+}
+
+/* Tables: readable, scrollable on mobile, zebra striping. */
+.md-typeset table:not([class]) {
+  font-size: 0.72rem;
+  display: table;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-default-fg-color--lightest);
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+/* Worksheet tables have many empty cells; keep the grid visible. */
+.md-typeset table:not([class]) td:empty::after {
+  content: "\00a0";
+}
+
+/* The "Term → explanation → example → why it matters" definition blockquotes. */
+.md-typeset blockquote {
+  border-left: 0.2rem solid var(--md-primary-fg-color);
+  background-color: var(--md-default-fg-color--lightest);
+  border-radius: 0 0.1rem 0.1rem 0;
+  padding: 0.4rem 0.8rem;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset blockquote > :first-child {
+  margin-top: 0;
+}
+
+.md-typeset blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/* Inline terminology chips used in the "Terminology to remember" sections. */
+.md-typeset code {
+  border-radius: 0.15rem;
+}
+
+/* Grid cards on the home page. */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.3rem;
+  transition: border-color 125ms, box-shadow 125ms;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.12);
+}
+
+/* Give week numbers on the home cards a bit of presence. */
+.md-typeset .grid.cards .lg {
+  color: var(--md-primary-fg-color);
+}

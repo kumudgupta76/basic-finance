@@ -1,9 +1,3 @@
----
-title: Worksheets
-nav_order: 15
-has_children: true
----
-
 # Worksheets
 
 Printable/fillable worksheets for each week. Fill them in — the writing is what makes the

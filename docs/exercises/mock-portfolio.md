@@ -1,9 +1,3 @@
----
-title: Mock portfolio tracker
-parent: Worksheets
-nav_order: 7
----
-
 # Worksheet — Mock Portfolio Tracker (Weeks 2–6)
 
 **Imaginary capital:** ₹5,00,000
@@ -125,6 +119,6 @@ or every ____ months — whichever comes first.
 
 ## H. Carry-forward
 
-Things to revisit in the [3-month roadmap](../docs/next-3-months-roadmap.md):
+Things to revisit in the [3-month roadmap](../next-3-months-roadmap.md):
 
 > 

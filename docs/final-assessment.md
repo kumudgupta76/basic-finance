@@ -1,8 +1,3 @@
----
-title: Final assessment
-nav_order: 10
----
-
 # Final Practical Assessment
 
 Take this at the end of Week 6. Set aside **2 hours**, work without notes for Part A, and use

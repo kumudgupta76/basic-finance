@@ -1,9 +1,3 @@
----
-title: 05 · Position sizing & journal
-parent: Worksheets
-nav_order: 5
----
-
 # Worksheet 5 — Position Sizing, Risk & Trade Journal (Week 5)
 
 **Date completed:** ______________

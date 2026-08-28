@@ -1,9 +1,3 @@
----
-title: 02 · Compounding & SIP
-parent: Worksheets
-nav_order: 2
----
-
 # Worksheet 2 — Compounding, Inflation & SIP (Week 2)
 
 **Date completed:** ______________

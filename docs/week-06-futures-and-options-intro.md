@@ -1,12 +1,7 @@
----
-title: Week 6 · Futures & options intro
-nav_order: 7
----
-
 # Week 6 — Futures & Options: Introduction Only
 
 **Time:** 2–3 hours
-**Worksheet:** [Options chain observation](../exercises/06-options-chain-observation.md)
+**Worksheet:** [Options chain observation](exercises/06-options-chain-observation.md)
 
 ---
 
@@ -248,7 +243,7 @@ content. This niche is the most heavily monetised and least honest corner of Ind
 
 ## 6. Practical exercise — observation only
 
-Worksheet: [Options chain observation](../exercises/06-options-chain-observation.md)
+Worksheet: [Options chain observation](exercises/06-options-chain-observation.md)
 
 ### A. Read the option chain (30 min)
 Open the NSE Nifty option chain. Record the current Nifty spot, then note:
@@ -301,7 +296,7 @@ convincingly, re-read the module.
 8. Are Indian **stock** options cash settled or physically settled at expiry?
 9. You have ₹1,00,000 margin controlling ₹8,00,000 notional. The underlying falls 3%. What happened to your capital?
 
-<details>
+<details class="success" markdown="1">
 <summary>Answers</summary>
 
 1. **OTM** — for a call, spot below strike means no exercise value.

@@ -1,8 +1,3 @@
----
-title: Resource library
-nav_order: 14
----
-
 # Curated Resource Library
 
 Every link is free unless marked **(paid)**. Regulatory and exchange sites are **primary sources** —
