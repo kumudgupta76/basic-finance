@@ -114,6 +114,29 @@ Each new term is introduced in a fixed format:
 
 </div>
 
+## Study material
+
+The roadmap introduces futures and options vocabulary in Week 6. For focused follow-up, use these
+standalone notes to study each contract type, its mechanics and its risks.
+
+<div class="grid cards" markdown>
+
+-   :material-school:{ .lg .middle } **[Futures Trading — Study Notes](study-material/futures-trading.md)**
+
+    ---
+
+    A step-by-step futures primer with worked examples, key risks and a self-check quiz.
+    Educational only — no live trading.
+
+-   :material-school:{ .lg .middle } **[Options Trading — Study Notes](study-material/options-trading.md)**
+
+    ---
+
+    Calls, puts, premium, payoff, break-even, Greeks and option-chain basics — with examples and
+    a self-check quiz. Educational only — no live trading.
+
+</div>
+
 ## After the 6 weeks
 
 <div class="grid cards" markdown>

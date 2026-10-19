@@ -107,6 +107,9 @@ nav:
       - Week 4 · Technical analysis: week-04-trading-technical-analysis.md
       - Week 5 · Risk & psychology: week-05-risk-management-psychology.md
       - Week 6 · Futures & options intro: week-06-futures-and-options-intro.md
+  - Study Material:
+      - Futures trading: study-material/futures-trading.md
+      - Options trading: study-material/options-trading.md
   - Worksheets:
       - Overview: exercises/index.md
       - 01 · Nifty 50 exploration: exercises/01-nifty50-exploration.md

@@ -58,6 +58,8 @@ SEBI/exchange-approved list of eligible stocks.
 
 ## 3. Futures
 
+For a focused follow-up with worked examples, see [Futures Trading — Study Notes](study-material/futures-trading.md).
+
 > **Futures contract** → A standardised agreement to buy or sell an asset at a set price on a
 > future date. → You buy one Nifty futures contract; you profit if Nifty rises above your entry and
 > lose if it falls. → It matters because it's a **linear, symmetric, leveraged** exposure: gains and
@@ -103,6 +105,9 @@ A futures position can lose more than the margin you deposited.
 ---
 
 ## 4. Options
+
+For a focused follow-up with payoff calculations, premium concepts and a self-check quiz, see
+[Options Trading — Study Notes](study-material/options-trading.md).
 
 An option is a **right, not an obligation** — for the buyer. For the seller it's an obligation.
 
